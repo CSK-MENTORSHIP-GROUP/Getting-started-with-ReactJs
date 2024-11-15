@@ -17,7 +17,7 @@ npm create vite@latest my-react-app -- --template react
 ```
 #### Using pnpm
 ```bash
-pnpx create vite@latest my-react-app --template react
+pnpm create vite@latest my-react-app --template react
 ```
 
 ### Step 2: Install Dependencies
@@ -39,16 +39,19 @@ The project structure should look like this:
 my-react-app
 ├── node_modules
 ├── public
-│   ├── favicon.ico
-│   ├── index.html
+│   ├── vite.svg
 ├── src
+│   ├── assets
 │   ├── App.css
-│   ├── App.js
+│   ├── App.jsx
 │   ├── index.css
-│   ├── index.js
+│   ├── main.js
 ├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
 ├── README.md
+├── vite.config.js
 ```
 ### Step 3: Start the Development Server
 Run the development server to start building your React application.
